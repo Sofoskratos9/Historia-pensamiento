@@ -1,0 +1,41 @@
+{
+  "name": "la-odisea-del-pensamiento",
+  "version": "1.0.0",
+  "description": "Aplicación Web Progresiva educativa para estudiantes de secundaria sobre Historia del Pensamiento",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "educación",
+    "filosofía",
+    "historia",
+    "pensamiento",
+    "gamificación",
+    "pwa",
+    "secundaria"
+  ],
+  "author": "Miguel Neftalí López Esparza",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.66.1",
+    "framer-motion": "^10.16.1",
+    "next-pwa": "^5.6.0",
+    "react-icons": "^4.10.1",
+    "dexie": "^3.2.4",
+    "confetti-js": "^0.0.18"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
+  }
+}

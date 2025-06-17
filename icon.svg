@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Fondo circular con gradiente azul a morado -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#a21caf" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fondo -->
+  <circle cx="256" cy="256" r="250" fill="url(#bg-gradient)" />
+  
+  <!-- Libro abierto (representando el conocimiento) -->
+  <path d="M128 160 L256 120 L384 160 L384 352 L256 392 L128 352 Z" fill="#f8fafc" stroke="#0c4a6e" stroke-width="8" />
+  
+  <!-- Páginas del libro -->
+  <path d="M256 120 L256 392" stroke="#0c4a6e" stroke-width="8" />
+  
+  <!-- Cerebro (representando el pensamiento) -->
+  <path d="M200 200 Q180 180 200 160 Q230 140 256 160 Q282 140 312 160 Q332 180 312 200 Q332 220 312 240 Q332 260 312 280 Q282 300 256 280 Q230 300 200 280 Q180 260 200 240 Q180 220 200 200" fill="#fcd34d" stroke="#92400e" stroke-width="4" />
+  
+  <!-- Estrellas (representando la odisea/viaje) -->
+  <polygon points="400,100 410,120 430,120 415,135 420,155 400,145 380,155 385,135 370,120 390,120" fill="#f0abfc" />
+  <polygon points="100,380 110,400 130,400 115,415 120,435 100,425 80,435 85,415 70,400 90,400" fill="#f0abfc" />
+  <polygon points="450,300 455,310 465,310 458,318 460,328 450,323 440,328 442,318 435,310 445,310" fill="#f0abfc" />
+  <polygon points="80,200 85,210 95,210 88,218 90,228 80,223 70,228 72,218 65,210 75,210" fill="#f0abfc" />
+</svg>
